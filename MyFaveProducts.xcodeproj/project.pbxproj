@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905D746B2150741100A72C61 /* Default Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 905D746A2150741100A72C61 /* Default Image.jpg */; };
 		909B85E3215062B9002D4648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B85E2215062B9002D4648 /* AppDelegate.swift */; };
 		909B85E5215062B9002D4648 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B85E4215062B9002D4648 /* MasterViewController.swift */; };
 		909B85E7215062B9002D4648 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B85E6215062B9002D4648 /* DetailViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		905D746A2150741100A72C61 /* Default Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Default Image.jpg"; sourceTree = "<group>"; };
 		909B85DF215062B9002D4648 /* MyFaveProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFaveProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		909B85E2215062B9002D4648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		909B85E4215062B9002D4648 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		909B85F62150652C002D4648 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				905D746A2150741100A72C61 /* Default Image.jpg */,
 				909B85FD215065F3002D4648 /* Cam Roller.jpg */,
 				909B85FC215065F3002D4648 /* Gliding Surface.jpg */,
 				909B85FE215065F3002D4648 /* Pillow Block.jpg */,
@@ -157,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				905D746B2150741100A72C61 /* Default Image.jpg in Resources */,
 				909B8600215065F3002D4648 /* Shaft Support.jpg in Resources */,
 				909B8602215065F3002D4648 /* Square Bearing.jpg in Resources */,
 				909B85EF215062C4002D4648 /* LaunchScreen.storyboard in Resources */,
