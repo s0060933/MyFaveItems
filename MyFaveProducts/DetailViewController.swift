@@ -18,10 +18,10 @@ class DetailViewController: UIViewController {
         // Update the user interface for the detail item.
         if detailItem != nil {
             if let photo = productImageView {
-                if let label = detailDescriptionLabel {
-                    label.text = detail.description
-                }
+                    photo.image = UIImage(named: detailItem!)
             }
+        } else {
+            productImageView.image = UIImage(named: "Default Image.jpg")
         }
     }
 
@@ -36,7 +36,7 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var detailItem: String? {
         didSet {
             // Update the view.
             configureView()
